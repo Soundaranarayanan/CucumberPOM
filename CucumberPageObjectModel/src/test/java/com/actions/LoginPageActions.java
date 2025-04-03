@@ -28,7 +28,7 @@ public void clickLogin() {
 	loginPageLocators.login.click();
 }
 public void login() {
-	File file = new File("C:\\Users\\admi\\JAVA_SELENIUM_ASSESSMENT\\CucumberPageObjectModel\\src\\test\\resources\\testdata.properties");
+	File file = new File("C:\\Users\\admi\\git\\repository49\\CucumberPageObjectModel\\src\\test\\resources\\testdata.properties");
 	FileInputStream fileInput = null;
 	try {
 		fileInput = new FileInputStream(file);	
